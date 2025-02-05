@@ -1,12 +1,11 @@
 // vim: set ts=4 sw=4 sts=4 noet:
 //
 // docopts.go is a command line wrapper for docopt.go to be used by bash scripts.
-//
 package main
 
 import (
 	"fmt"
-	"github.com/docopt/docopt-go"
+	"github.com/bwi-suisse/docopt.go"
 	"io"
 	"io/ioutil"
 	"os"

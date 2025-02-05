@@ -1,7 +1,6 @@
 // vim: set ts=4 sw=4 sts=4 noet:
 //
 // unit test for docopts.go
-//
 package main
 
 import (
@@ -12,7 +11,7 @@ import (
 	"testing"
 	// our json loader for common_input_test.json
 	"fmt"
-	"github.com/docopt/docopts/test_json_load"
+	"github.com/bwi-suisse/docopts/test_json_load"
 )
 
 func TestShellquote(t *testing.T) {

@@ -1,0 +1,4 @@
+github.com/bwi-suisse/docopt.go v0.0.0-20180111231733-ee0de3bc6815 h1:2HoY2z3aJd4LjZ1BuuLS8fQNN+QWvjDEPr/RKv2xxh4=
+github.com/bwi-suisse/docopt.go v0.0.0-20180111231733-ee0de3bc6815/go.mod h1:Ylx35jsMynD6RJRI38Y3mx3dZlSR1DbcFnT/9aU7sQU=
+github.com/docopt/docopts v0.6.2 h1:7PWAMv1U3XhEx6RjzJq0dKTGYCbHu7Iz+dz3ZXkgYfg=
+github.com/docopt/docopts v0.6.2/go.mod h1:uKMblrgkv5Wk/+v8iLonLJnc0bhgmml/klBUa06PP6Y=
