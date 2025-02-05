@@ -18,10 +18,10 @@ import (
 // vars defined at compile time
 // https://github.com/ahmetb/govvv
 var (
-	Version        string
-	BuildDate      string
+	Version        string = "v0.8.5"
+	BuildDate      string = "05.02.2025"
 	GitCommit      string
-	GoBuildVersion string
+	GoBuildVersion string = "go1.23.3"
 )
 
 var copyleft = `
@@ -376,9 +376,8 @@ func main() {
 	}
 
 	// build Docopts_Version string
-	Docopts_Version = fmt.Sprintf("docopts %s commit %s built at %s\nbuilt from: %s\n%s",
+	Docopts_Version = fmt.Sprintf("docopts %s built at %s\nbuilt from: %s\n%s",
 		Version,
-		GitCommit,
 		BuildDate,
 		GoBuildVersion,
 		strings.TrimSpace(copyleft))
